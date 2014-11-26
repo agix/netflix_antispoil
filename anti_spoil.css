@@ -1,0 +1,3 @@
+.player-loading-background, .next-episode-image, .episode-list-image-container, .player-postplay-autoplay-still{
+    visibility: hidden;
+}

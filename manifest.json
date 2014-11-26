@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Netflix Anti Spoil",
+  "description": "This extension remove image preview from netflix loading preventing huge spoil.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.netflix.com/*"],
+      "css": ["anti_spoil.css"]
+    }
+  ]
+}
